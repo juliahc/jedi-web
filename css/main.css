@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+main {
+    min-height: calc(100vh - 341px);
+    justify-content: center;
+    max-width: 100vw !important;
+}
+.inici-section {
+    padding: 40px 10px 40px 10px;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    align-content: center;
+}
+#up {
+    position: fixed;
+    bottom:5px;
+    right:5px;
+}
+#up a {
+    color: #ffe366;
+    font-size: 40px;
+}
+#up a:hover {
+    font-size: 60px;
+}
+#qui-som {
+    background-image: linear-gradient(#545454b0,#545454b0), url("../img/qui-som.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: calc(100vh - 165px)!important;
+}
+#qui-som-main {
+    position:relative;
+    color: white;
+}
+#qui-som-main > h5 {
+    margin-top: 30px;
+}
+#qualitats-main-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#qualitats-main > h4 {
+    color: #545454;
+}
+.qualitat-card {
+    border: 2px solid #545454;
+    width: 180px;
+    padding: 6px;
+    margin: 10px;
+}
+.qualitat-card > i {
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #545454;
+}
+.qualitat-card > p {
+    font-size: 13px;
+}
+#acces-boiga {
+    background-image: linear-gradient(#545454b0,#545454b0), url("../img/acces-botiga.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+}
+#acces-boiga-main {
+    position:relative;
+    color: white;
+}
+#acces-boiga-main > a {
+    font-size: 130px;
+    color:white;
+}
+#acces-boiga-main > a:hover {
+    font-size: 160px;
+}
+#xarxes {
+    padding: 40px 10px 40px 10px;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+}
+#xarxes-main {
+    
+}
+#xarxes-main-icones {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+}
+#xarxes a {
+    color:#545454;
+    font-size: 60px;
+    margin: 10px;
+}
+#xarxes a:hover {
+    color:#ffe366;
+}

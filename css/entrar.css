@@ -1,0 +1,67 @@
+main {
+    background-image: linear-gradient(#54545446,#54545434), url("../img/entrar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+}
+#wraper-formularis {
+    justify-content: center;
+    align-content: center;
+    margin: 50px 5px 50px 5px;
+}
+#formularis {
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: #545454ee;
+    padding: 20px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+#login, #register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    color: #545454;
+    padding: 20px 10px 20px 10px;
+    border-radius: 3px;
+    min-height: 400px;
+}
+.question {
+    background-color: 545454;
+    margin: 20px;
+}
+label {
+    color: #545454;
+}
+.btn-form {
+    margin: 20px;
+    background-color: #545454;
+    border-color: #545454;
+    color: white;
+}
+.btn-form:hover {
+    background-color: white;
+    border-color: white;
+    color: #545454;
+}
+.btn-question {
+    padding: 0;
+    background-color: #54545400;
+    border-color: #54545400;
+}
+.btn-question:hover {
+    background-color: #54545400;
+    border-color: #54545400;
+    color: #ffe366;
+}

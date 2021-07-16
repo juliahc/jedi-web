@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #545454;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100vw !important;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align-center {
+    text-align: center;
+}
+.titol {
+    margin-top: 15px ;
+    margin-bottom: 15px;
+}
+.menu {
+    background-color: #545454;
+}
+.menu > div {
+    padding: 15px 30px 15px 30px;
+}
+.menu > div:hover {
+    background-color: #979797;
+}
+.menu a {
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+footer {
+    background-color: #545454;
+    color: white;
+    padding: 30px 5px 20px 5px;
+
+}
+footer > section {
+    padding: 10px 10px 10px 10px;
+}
+.footer-icon {
+    padding-right: 10px;
+}

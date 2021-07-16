@@ -37,6 +37,9 @@ footer {
     padding: 30px 5px 20px 5px;
 
 }
+footer td {
+    color: white;
+}
 footer > section {
     padding: 10px 10px 10px 10px;
 }
